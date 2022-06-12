@@ -24,7 +24,7 @@ export default function App() {
         hidden={true} />
 
       <View> 
-        <Text style={style.titulo}>Lista de Tarefas do Gabriel Kleinübing Schiavo</Text>
+        <Text style={style.titulo}>To-Do List</Text>
       </View>
 
       <View style={style.containerInput}>
@@ -51,9 +51,9 @@ const style = StyleSheet.create({
 
   titulo: {
     fontSize: 25,
-    fontWeight: '500',
+    fontWeight: 'bold',
     textAlign: 'center',
-    paddingTop: 20,
+    paddingTop: 25,
     paddingBottom: 25,
   },
 
