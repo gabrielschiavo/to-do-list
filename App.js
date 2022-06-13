@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import { Lista } from './src/components/Lista';
 
 export default function App() {
@@ -17,28 +17,31 @@ export default function App() {
   };
 
   return (
-    <View style={style.containerRaiz}>
-      <StatusBar
-        animated={true}
-        showHideTransition={true}
-        hidden={true} />
+    <ScrollView style={style.containerRaiz}>
+      <View>
+        <StatusBar
+          animated={true}
+          showHideTransition={true}
+        />
 
-      <View> 
-        <Text style={style.titulo}>To-Do List</Text>
-      </View>
+        <View> 
+          <Text style={style.titulo}>To-Do List</Text>
+        </View>
 
-      <View style={style.containerInput}>
-        <TextInput style={style.input} value={texto} onChangeText={setaTexto}/>
+        <View style={style.containerInput}>
+          <TextInput style={style.input} value={texto} onChangeText={setaTexto}/>
 
-        <TouchableOpacity style={style.btn} onPress={adicionaItem}>
-          <Text style={style.btnText}>adicionar tarefa</Text>
-        </TouchableOpacity>
-      </View>
+          <TouchableOpacity style={style.btn} onPress={adicionaItem}>
+            <Text style={style.btnText}>adicionar tarefa</Text>
+          </TouchableOpacity>
+        </View>
       
-      <Text style={style.text}>Minha Lista:</Text>
-      <Lista itens={itens} setaItens={setaItens}/>
+        <Text style={style.text}>Minha Lista:</Text>
+        <Lista itens={itens} setaItens={setaItens}/>
 
-    </View>
+      </View>
+    </ScrollView>
+    
   );
 }
 
@@ -53,7 +56,7 @@ const style = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center',
-    paddingTop: 25,
+    marginTop: 35,
     paddingBottom: 25,
   },
 
