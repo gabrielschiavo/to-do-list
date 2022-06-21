@@ -37,5 +37,6 @@ Agora basta iniciar o projeto com o seguinte comando:
 * `Expo - 44.0.0`
 * `React Native - 0.64.3`
 * `React - 17.0.1`
+* `JavaScript`
 
 <!-- ## 	:page_facing_up: Referências -->
