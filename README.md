@@ -2,6 +2,7 @@
 
 <p align="left">
     <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/license/GabrielSchiavo/to-do-list?style=for-the-badge"/>
 </p>
 
 App de lista desenvolvido com React Native para fins de estudo.
