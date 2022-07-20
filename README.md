@@ -14,7 +14,7 @@ App de lista desenvolvido com React Native para fins de estudo.
 ![tela_inicial_to_do_list](https://user-images.githubusercontent.com/84607831/173249446-a071d66a-7d98-4189-a836-4edd69f9f4f6.jpg)
 
 ## :file_folder: Acesso ao projeto
-Você pode [acessar o código fonte do projeto](https://github.com/GabrielSchiavo/to-do-list) ou [baixá-lo](https://github.com/GabrielSchiavo/to-do-list/archive/refs/heads/main.zip).
+Você pode [acessar o código-fonte do projeto](https://github.com/GabrielSchiavo/to-do-list) ou [baixá-lo](https://github.com/GabrielSchiavo/to-do-list/archive/refs/heads/main.zip).
 
 ## 	:hammer_and_wrench: Abrir e rodar o projeto
 Após baixar o projeto, você pode abrir com o Visual Studio Code. Para o projeto funcionar você deve ter configurado no seu PC:
