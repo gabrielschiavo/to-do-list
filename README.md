@@ -11,7 +11,8 @@ App de lista desenvolvido com React Native para fins de estudo.
 - `Cadastro de tarefa`: cadastro de tarefas a serem feitas.
 - `Marcar tarefa como concluída`: possibilidade de marcar tarefas como concluídas.
 
-![tela_inicial_to_do_list](https://user-images.githubusercontent.com/84607831/173249446-a071d66a-7d98-4189-a836-4edd69f9f4f6.jpg)
+<br>
+<img src="./assets/screenshots/screenshot1_tela_inicial.jpg" alt="Screenshot tela inicial"/>
 
 ## :file_folder: Acesso ao projeto
 Você pode [acessar o código-fonte do projeto](https://github.com/GabrielSchiavo/to-do-list) ou [baixá-lo](https://github.com/GabrielSchiavo/to-do-list/archive/refs/heads/main.zip).
