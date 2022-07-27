@@ -22,7 +22,7 @@ Após baixar o projeto, você pode abrir com o Visual Studio Code. Para o projet
 
 * Node.js - Versão >=16.14.2
 
-Agora, você deve executar em um terminal o seguinte comando para instalar o Expo:
+Agora, você deve executar em um terminal execute o seguinte comando para instalar o Expo:
 
 * npm install --global expo-cli
 
