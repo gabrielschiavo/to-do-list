@@ -35,8 +35,8 @@ Agora basta iniciar o projeto com o seguinte comando:
 * expo start
 
 ## :white_check_mark: Tecnologias utilizadas
-* `Node.js - 16.14.2`
 * `Expo - 44.0.0`
-* `React Native - 0.64.3`
-* `React - 17.0.1`
 * `JavaScript`
+* `Node.js - 16.14.2`
+* `React - 17.0.1`
+* `React Native - 0.64.3`
