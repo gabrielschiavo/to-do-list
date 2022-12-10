@@ -8,8 +8,8 @@
 App de lista desenvolvido com React Native para fins de estudo.
 
 ## :hammer: Funcionalidades do projeto
-- `Cadastro de tarefa`: cadastro de tarefas a serem feitas.
-- `Marcar tarefa como concluída`: possibilidade de marcar tarefas como concluídas.
+- `Cadastro de tarefa:` cadastro de tarefas a serem feitas.
+- `Marcar tarefa como concluída:` possibilidade de marcar tarefas como concluídas.
 
 <br>
 <img src="./assets/screenshots/screenshot1_tela_inicial.jpg" alt="Screenshot tela inicial"/>
@@ -23,16 +23,19 @@ Após baixar o projeto, você pode abrir com o Visual Studio Code. Para o projet
 * Node.js - Versão >=16.14.2
 
 Agora, você deve executar em um terminal o seguinte comando para instalar o Expo:
-
-* npm install --global expo-cli
+```bash
+npm install --global expo-cli
+```
 
 Após executar esse comando abra outro terminal na pasta do projeto e execute este comando para instalar as dependências do projeto:
-
-* npm install
+```bash
+npm install
+```
 
 Agora basta iniciar o projeto com o seguinte comando:
-
-* expo start
+```bash
+expo start
+```
 
 ## :white_check_mark: Tecnologias utilizadas
 * `Expo - 44.0.0`
