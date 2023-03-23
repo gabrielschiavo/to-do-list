@@ -36,12 +36,12 @@ npm install
 
 Agora basta iniciar o projeto com o seguinte comando:
 ```bash
-expo start
+npx expo start
 ```
 
 ## :white_check_mark: Tecnologias utilizadas
-* `Expo - 44.0.0`
+* `Expo - 48.0.0`
 * `JavaScript`
-* `Node.js - 16.14.2`
-* `React - 17.0.1`
-* `React Native - 0.64.3`
+* `Node.js - 18.15.0`
+* `React - 18.2.0`
+* `React Native - 0.71.4`
